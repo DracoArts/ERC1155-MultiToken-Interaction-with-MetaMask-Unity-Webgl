@@ -103,7 +103,7 @@
 
 ✔ Cache wallet data (avoid spamming RPC calls).
 
-#Prerequisites
+# Prerequisites
 Unity 2021.3+
 
 WebGL build support
@@ -120,7 +120,8 @@ Testnet ETH/MATIC for transactions
 
 ## Usage/Examples
 Balance Erc1155
-    private async void Balance()
+
+      private async void Balance()
     {
 
         if (string.IsNullOrEmpty(tokenIdInput.text))
